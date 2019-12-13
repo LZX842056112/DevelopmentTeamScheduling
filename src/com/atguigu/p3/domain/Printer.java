@@ -2,7 +2,7 @@ package com.atguigu.p3.domain;
 
 public class Printer implements Equipment {
 	
-	private String name;
+	private String name;//名称
 	private String type;//机器的类型
 	
 	public String getName() {

@@ -17,6 +17,10 @@ public class Architect extends Designer{
 		return getDetails() + "\t架构师\t" + getStatus() + "\t" +
 	               getBonus() + "\t" + getStock() + "\t" + getEquipment().getDescription();
 	}
+	public String getDetailsForTeam() {
+        return getMemberDetails() + "\t架构师\t" + 
+               getBonus() + "\t" + getStock();
+    }
 
 	public Architect(int id, String name, int age, double salary, Equipment equipment, double bonus, int stock) {
 		super(id, name, age, salary, equipment, bonus);
@@ -25,5 +29,4 @@ public class Architect extends Designer{
 
 	public Architect() {
 	}
-
 }

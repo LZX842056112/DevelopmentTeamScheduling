@@ -3,7 +3,7 @@ package com.atguigu.p3.domain;
 public class NoteBook implements Equipment {
 
 	private String model;//机器的型号
-	private double price;
+	private double price;//价格
 	
 	public String getModel() {
 		return model;

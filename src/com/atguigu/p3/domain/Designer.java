@@ -17,6 +17,10 @@ public class Designer extends Programmer{
 		return getDetails() + "\t设计师\t" + getStatus() + "\t" +
 	               getBonus() +"\t\t" + getEquipment().getDescription();
 	}
+	
+	public String getDetailsForTeam() {
+        return getMemberDetails() + "\t设计师\t" + getBonus();
+    }
 
 	public Designer(int id, String name, int age, double salary,Equipment equipment,
 			double bonus) {
